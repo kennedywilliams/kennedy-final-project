@@ -8,7 +8,7 @@
       <img src="img/members/{{ member.imagebw }}" class="img-fluid" alt="image of member">
     </div>
     <div class="col-sm-8">
-      <p style="margin-bottom-5px"> {{member.text}}</p>
+      <p style="margin-bottom-5px"> {{ member.text | safe}}</p>
       <p> Background information </p>
         <ul>
           <li>{{member.birthdate}}</li>
