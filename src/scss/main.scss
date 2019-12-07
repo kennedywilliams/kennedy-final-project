@@ -1,10 +1,16 @@
 // Custom variable overrides
 // See node_modules/bootstrap/scss/_variables.scss
 
-// $body-bg: black;
-// $body-color: white;
-// $link-hover-color: grey;
-// $font-family-sans-serif: "Helvetica Neue";
+$body-bg: black;
+$body-color: white;
+$link-color: white;
+$link-hover-color: grey;
+$font-family-base: Raleway, sans-serif;
+$card-color: black;
+
+h1,h2,h3 {
+  font-family: 'Bangers', cursive;
+}
 
 /* bootstrap */
 // Option A: Include all of Bootstrap
@@ -20,3 +26,7 @@
 
 // Import partials
 @import "nav";
+@import "jumbotron";
+@import "album-page";
+
+

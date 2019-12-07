@@ -1,10 +1,8 @@
-p, h1{
-  
-  font-family: 'Raleway', sans-serif;
+
+.jumbotron.banner {
+  background: url(../img/queen-band-wallpaper-thin.jpg) no-repeat center;
+  background-size: cover;
+  padding: 15%;
 }
 
-.jumbotron-fluid {
-  background-image: ("img/queen-rollingstone.jpg");
-  background-size: cover;
-  margin-top: 20px
-}
+

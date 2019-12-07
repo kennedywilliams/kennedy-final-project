@@ -1,5 +1,6 @@
-{% extends '_layouts/base.njk' %}
-
+{% extends "_layouts/base.njk" %}
+  {% block jumbotron %}{% endblock %}
+{% block page_title %}{{member.name}} | {{ super() }} {% endblock %}
 {% block content %}
 <html lang="en">
 <article class="container">
@@ -12,10 +13,10 @@
       <p style="margin-bottom-5px"> {{ member.text | safe}}</p>
       <p> Background information </p>
         <ul>
-          <li>{{member.birthdate}}</li>
-          <li> {{member.birthplace}}</li>
-          <li>{{ member.tenure }}</li>
-          <li> {{ member.instruments }}</li>
+          <li> Born: {{member.birthdate}}</li>
+          <li> Hometown: {{member.birthplace}}</li>
+          <li>Years active: {{ member.tenure }}</li>
+          <li> Instruments: {{ member.instruments }}</li>
         </ul>
 
     </div>
