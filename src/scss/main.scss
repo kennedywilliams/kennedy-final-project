@@ -10,7 +10,14 @@ $card-color: black;
 
 h1,h2,h3 {
   font-family: 'Bangers', cursive;
+  text-align: center;
 }
+
+.iframe {
+  color: white;
+}
+
+
 
 /* bootstrap */
 // Option A: Include all of Bootstrap
@@ -28,5 +35,6 @@ h1,h2,h3 {
 @import "nav";
 @import "jumbotron";
 @import "album-page";
+
 
 
